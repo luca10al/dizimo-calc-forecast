@@ -19,9 +19,9 @@ const TitheCalculator = () => {
 
   const calculateProjections = (baseAmount: number) => {
     const projectionData: ProjectionData[] = [
-      { period: "3-6 meses", percentage: 16.25, amount: baseAmount * 1.1625 },
-      { period: "6-12 meses", percentage: 34.85, amount: baseAmount * 1.3485 },
-      { period: "12-18 meses", percentage: 53.45, amount: baseAmount * 1.5345 }
+      { period: "3-6 meses", percentage: 26.25, amount: baseAmount * 1.2625 },
+      { period: "6-12 meses", percentage: 54.85, amount: baseAmount * 1.5485 },
+      { period: "12-18 meses", percentage: 73.45, amount: baseAmount * 1.7345 }
     ];
     setProjections(projectionData);
   };
